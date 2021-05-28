@@ -1,5 +1,10 @@
-function restar (a,b) {
-    return (a+b);
+let suma=require("./Sumar");
+let resta=require("./Restar");
 
-}
-module.exports = restar;
+module.exports={
+    suma,
+    resta,
+   }
+
+   console.log(suma(1,8));
+   console.log(resta(10,8));
